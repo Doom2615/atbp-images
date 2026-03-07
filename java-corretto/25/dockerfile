@@ -1,21 +1,16 @@
-FROM        amazoncorretto:25.0.2-al2023
+FROM        amazoncorretto:25
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-RUN         dnf upgrade -y \
-            && dnf install -y \
-               # Replacement for "Development Tools"
-               binutils gcc gcc-c++ make automake libtool \
-               # Your required packages
-               curl ca-certificates openssl git tar sqlite-devel \
-               fontconfig freetype freetype-devel lsof tzdata iproute \
-               libstdc++-devel \
-               # Required for your ENV LC_ALL=en_US.UTF-8 to actually work
-               glibc-langpack-en \
-            && dnf clean all \
-            && rm -rf /var/cache/dnf \
+RUN         yum upgrade -y \
+            && yum install -y \
+            curl ca-certificates openssl git tar sqlite fontconfig \
+            freetype libstdc++ freetype-devel lsof tzdata iproute \
+            gcc gcc-c++ automake make libtool \
+            && yum clean all \
+            && rm -rf /var/cache/yum \
             && useradd -m -d /home/container container
 
 ENV         LC_ALL=en_US.UTF-8

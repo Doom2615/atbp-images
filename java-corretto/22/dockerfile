@@ -4,11 +4,9 @@ LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-# 1. Use --releasever=latest to bypass repository version locks
-# 2. Add shadow-utils (provides useradd)
-# 3. Use dnf instead of yum
-RUN         dnf upgrade -y --releasever=latest \
-            && dnf install -y --releasever=latest \
+# Added --allowerasing to resolve the curl-minimal vs curl conflict
+RUN         dnf upgrade -y --releasever=latest --allowerasing \
+            && dnf install -y --releasever=latest --allowerasing \
             curl \
             ca-certificates \
             openssl \

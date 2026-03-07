@@ -1,4 +1,4 @@
-FROM        container-registry.oracle.com/graalvm/jdk-ee:ol8-java8
+FROM        ghcr.io/graalvm/jdk-community:8
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"

@@ -1,7 +1,7 @@
-FROM        amazoncorretto:17
+FROM        amazoncorretto:17.0.18-al2023
 
-LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
+LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         yum upgrade -y \

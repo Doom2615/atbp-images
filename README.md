@@ -1,6 +1,4 @@
-# This repository is not maintained
-
-I no longer use the specified game panels and thus, do not need these images. Feel free to fork and add your own. Thanks!
+# This repository is maintained
 
 ## Pelican/Pterodactyl/WISP Docker Images
 
@@ -33,17 +31,21 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 ### Java Amazon Corretto [AMD64/ARM64]
 
 - [Java 8 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/8)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_8_corretto`
+  - `ghcr.io/doom2615/atbp-images:java_8_corretto`
 - [Java 11 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/11)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_11_corretto`
+  - `ghcr.io/doom2615/atbp-images:java_11_corretto`
 - [Java 17 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/17)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_17_corretto`
-- [Java 19 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/19)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_19_corretto`
-- [Java 20 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/20)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_20_corretto`
+  - `ghcr.io/doom2615/atbp-images:java_17_corretto`
 - [Java 21 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/21)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_21_corretto`
+  - `ghcr.io/doom2615/atbp-images:java_21_corretto`
+- [Java 22 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/22)
+  - `ghcr.io/doom2615/atbp-images:java_22_corretto`
+- [Java 23 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/23)
+  - `ghcr.io/doom2615/atbp-images:java_23_corretto`
+- [Java 24 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/24)
+  - `ghcr.io/doom2615/atbp-images:java_24_corretto`
+- [Java 25 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/25)
+  - `ghcr.io/doom2615/atbp-images:java_25_corretto`
 
 ### Java Azul Zulu [AMD64/ARM64]
 
@@ -80,38 +82,46 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 ### Java Eclipse Temurin [AMD64/ARM64]
 
 - [Java 8](https://github.com/trenutoo/pterodactyl-images/tree/main/java/8)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_8`
+  - `ghcr.io/doom2615/atbp-images:java_8`
 - [Java 11](https://github.com/trenutoo/pterodactyl-images/tree/main/java/11)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_11`
+  - `ghcr.io/doom2615/atbp-images:java_11`
 - [Java 16](https://github.com/trenutoo/pterodactyl-images/tree/main/java/16)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_16`
+  - `ghcr.io/doom2615/atbp-images:java_16`
 - [Java 17](https://github.com/trenutoo/pterodactyl-images/tree/main/java/17)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_17`
+  - `ghcr.io/doom2615/atbp-images:java_17`
 - [Java 18](https://github.com/trenutoo/pterodactyl-images/tree/main/java/18)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_18`
+  - `ghcr.io/doom2615/atbp-images:java_18`
 - [Java 19](https://github.com/trenutoo/pterodactyl-images/tree/main/java/19)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_19`
+  - `ghcr.io/doom2615/atbp-images:java_19`
 - [Java 20](https://github.com/trenutoo/pterodactyl-images/tree/main/java/20)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_20`
+  - `ghcr.io/doom2615/atbp-images:java_20`
 - [Java 21](https://github.com/trenutoo/pterodactyl-images/tree/main/java/21)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_21`
+  - `ghcr.io/doom2615/atbp-images:java_21`
 - [Java 22](https://github.com/trenutoo/pterodactyl-images/tree/main/java/22)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_22`
+  - `ghcr.io/doom2615/atbp-images:java_22`
+- [Java 23](https://github.com/trenutoo/pterodactyl-images/tree/main/java/23)
+  - `ghcr.io/doom2615/atbp-images:java_23`
+- [Java 24](https://github.com/trenutoo/pterodactyl-images/tree/main/java/24)
+  - `ghcr.io/doom2615/atbp-images:java_24`
+- [Java 25](https://github.com/trenutoo/pterodactyl-images/tree/main/java/25)
+  - `ghcr.io/doom2615/atbp-images:java_25`
 
 ### Java GraalVM [AMD64/ARM64]
 
 **NOTE**: Java 8 is AMD64 only due to lack of support from upstream
 
-- [Java 8 GraalVM-CE](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/8)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_8_graalvm`
-- [Java 11 GraalVM JDK](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/11)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_11_graalvm`
-- [Java 17 GraalVM JDK](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/17)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_17_graalvm`
-- [Java 21 GraalVM JDK](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/21)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_21_graalvm`
-- [Java 22 GraalVM JDK](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/22)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_22_graalvm`
+- [Java 17 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/17)
+  - `ghcr.io/doom2615/atbp-images:java_17_graalvm`
+- [Java 21 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/21)
+  - `ghcr.io/doom2615/atbp-images:java_21_graalvm`
+- [Java 22 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/22)
+  - `ghcr.io/doom2615/atbp-images:java_22_graalvm`
+- [Java 23 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/23)
+  - `ghcr.io/doom2615/atbp-images:java_23_graalvm`
+- [Java 24 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/24)
+  - `ghcr.io/doom2615/atbp-images:java_24_graalvm`
+- [Java 25 Oracle GraalVM](https://github.com/trenutoo/pterodactyl-images/tree/main/java-graalvm/25)
+  - `ghcr.io/doom2615/atbp-images:java_25_graalvm`
 
 ### Java Liberica [AMD64/ARM64]
 

@@ -1,4 +1,4 @@
-FROM        ghcr.io/graalvm/jdk-community:21
+FROM        ghcr.io/graalvm/graalvm-community:21.0.2-ol9-20240116Copied
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"

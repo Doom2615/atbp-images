@@ -1,4 +1,4 @@
-FROM        amazoncorretto:17.0.18-al2023
+FROM        amazoncorretto:17
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"

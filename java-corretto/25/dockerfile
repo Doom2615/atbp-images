@@ -5,21 +5,15 @@ LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-im
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         dnf upgrade -y \
-            && dnf groupinstall -y "Development Tools" \
             && dnf install -y \
-            curl \
-            ca-certificates \
-            openssl \
-            git \
-            tar \
-            sqlite-devel \
-            fontconfig \
-            freetype \
-            freetype-devel \
-            lsof \
-            tzdata \
-            iproute \
-            libstdc++-devel \
+               # Replacement for "Development Tools"
+               binutils gcc gcc-c++ make automake libtool \
+               # Your required packages
+               curl ca-certificates openssl git tar sqlite-devel \
+               fontconfig freetype freetype-devel lsof tzdata iproute \
+               libstdc++-devel \
+               # Required for your ENV LC_ALL=en_US.UTF-8 to actually work
+               glibc-langpack-en \
             && dnf clean all \
             && rm -rf /var/cache/dnf \
             && useradd -m -d /home/container container

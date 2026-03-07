@@ -16,11 +16,11 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 
 | Image                                                                                                  | Supported platforms |
 | ------------------------------------------------------------------------------------------------------ | ------------------- |
-| [Java Amazon Corretto](https://github.com/trenutoo/pterodactyl-images#java-amazon-corretto-amd64arm64) | AMD64, ARM64        |
+| [Java Amazon Corretto](https://github.com/Doom2615/atbp-images#java-amazon-corretto-amd64arm64) | AMD64, ARM64        |
 | [Java Azul Zulu](https://github.com/trenutoo/pterodactyl-images#java-azul-zulu-amd64arm64)             | AMD64, ARM64        |
 | [Java Dragonwell](https://github.com/trenutoo/pterodactyl-images#java-dragonwell-amd64arm64)           | AMD64, ARM64        |
-| [Java Eclipse Temurin](https://github.com/trenutoo/pterodactyl-images#java-eclipse-temurin-amd64arm64) | AMD64, ARM64        |
-| [Java GraalVM](https://github.com/trenutoo/pterodactyl-images#java-graalvm-amd64arm64)                 | AMD64, ARM64        |
+| [Java Eclipse Temurin](https://github.com/Doom2615/atbp-images#java-eclipse-temurin-amd64arm64) | AMD64, ARM64        |
+| [Java GraalVM](https://github.com/Doom2615/atbp-images#java-graalvm-amd64arm64)                 | AMD64, ARM64        |
 | [Java Liberica](https://github.com/trenutoo/pterodactyl-images#java-liberica-amd64arm64)               | AMD64, ARM64        |
 | [Java OpenJ9](https://github.com/trenutoo/pterodactyl-images#java-openj9-amd64)                        | AMD64               |
 | [Java Shenandoah](https://github.com/trenutoo/pterodactyl-images#java-shenandoah-amd64arm64)           | AMD64, ARM64        |

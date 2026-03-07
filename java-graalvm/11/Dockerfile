@@ -1,7 +1,7 @@
 FROM        ghcr.io/graalvm/jdk:ol8-java11
 
-LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
+LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         microdnf update \

@@ -1,4 +1,4 @@
-FROM        container-registry.oracle.com/graalvm/jdk-22
+FROM        container-registry.oracle.com/graalvm/jdk:22
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"

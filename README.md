@@ -17,16 +17,16 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Image                                                                                                  | Supported platforms |
 | ------------------------------------------------------------------------------------------------------ | ------------------- |
 | [Java Amazon Corretto](https://github.com/Doom2615/atbp-images#java-amazon-corretto-amd64arm64) | AMD64, ARM64        |
-| [Java Azul Zulu](https://github.com/trenutoo/pterodactyl-images#java-azul-zulu-amd64arm64)             | AMD64, ARM64        |
-| [Java Dragonwell](https://github.com/trenutoo/pterodactyl-images#java-dragonwell-amd64arm64)           | AMD64, ARM64        |
+| [Java Azul Zulu](https://github.com/Doom2615/atbp-images#java-azul-zulu-amd64arm64)             | AMD64, ARM64        |
+| [Java Dragonwell](Not Currently Updated)           | AMD64, ARM64        |
 | [Java Eclipse Temurin](https://github.com/Doom2615/atbp-images#java-eclipse-temurin-amd64arm64) | AMD64, ARM64        |
 | [Java GraalVM](https://github.com/Doom2615/atbp-images#java-graalvm-amd64arm64)                 | AMD64, ARM64        |
-| [Java Liberica](https://github.com/trenutoo/pterodactyl-images#java-liberica-amd64arm64)               | AMD64, ARM64        |
-| [Java OpenJ9](https://github.com/trenutoo/pterodactyl-images#java-openj9-amd64)                        | AMD64               |
-| [Java Shenandoah](https://github.com/trenutoo/pterodactyl-images#java-shenandoah-amd64arm64)           | AMD64, ARM64        |
-| [Node.js](https://github.com/trenutoo/pterodactyl-images#nodejs-amd64arm64)                            | AMD64, ARM64        |
-| [Python](https://github.com/trenutoo/pterodactyl-images#python-amd64arm64)                             | AMD64, ARM64        |
-| [Sourcemod](https://github.com/trenutoo/pterodactyl-images#sourcemod-amd64)                            | AMD64               |
+| [Java Liberica](Not currently Updated)               | AMD64, ARM64        |
+| [Java OpenJ9](Not currently Updated)                        | AMD64               |
+| [Java Shenandoah](Not currently Updated)           | AMD64, ARM64        |
+| [Node.js](Not currently Updated)                            | AMD64, ARM64        |
+| [Python](Not currently Updated)                             | AMD64, ARM64        |
+| [Sourcemod](Not currently Updated)                            | AMD64               |
 
 ### Java Amazon Corretto [AMD64/ARM64]
 
@@ -49,24 +49,32 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 
 ### Java Azul Zulu [AMD64/ARM64]
 
-- [Java 8 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/8)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_8_zulu`
-- [Java 11 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/11)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_11_zulu`
-- [Java 16 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/16)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_16_zulu`
-- [Java 17 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/17)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_17_zulu`
-- [Java 18 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/18)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_18_zulu`
-- [Java 19 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/19)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_19_zulu`
-- [Java 20 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/20)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_20_zulu`
-- [Java 21 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/21)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_21_zulu`
-- [Java 22 Zulu](https://github.com/trenutoo/pterodactyl-images/tree/main/java-zulu/22)
-  - `ghcr.io/trenutoo/pterodactyl-images:java_22_zulu`
+- [Java 8 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/8)
+  - `ghcr.io/Doom2615/atbp-images:java_8_zulu`
+- [Java 11 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/11)
+  - `ghcr.io/Doom2615/atbp-images:java_11_zulu`
+- [Java 16 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/16)
+  - `ghcr.io/Doom2615/atbp-images:java_16_zulu`
+- [Java 17 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/17)
+  - `ghcr.io/Doom2615/atbp-images:java_17_zulu`
+  - 
+- [Java 18 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/18)
+  - `ghcr.io/Doom2615/atbp-images:java_18_zulu`
+- [Java 19 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/19)
+  - `ghcr.io/Doom2615/atbp-images:java_19_zulu`
+- [Java 20 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_20_zulu`
+- [Java 21 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_21_zulu`
+- [Java 22 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_22_zulu`
+- [Java 23 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_23_zulu`
+- [Java 24 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_24_zulu`
+- [Java 25 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+  - `ghcr.io/Doom2615/atbp-images:java_25_zulu`
+
 
 ### Java Dragonwell [AMD64/ARM64]
 

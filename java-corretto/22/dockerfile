@@ -4,12 +4,30 @@ LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-# Switch to dnf and clean up the package list for AL2023
-RUN         dnf update -y \
-            && dnf install -y \
-            curl ca-certificates openssl git tar sqlite fontconfig \
-            freetype libstdc++ freetype-devel lsof tzdata iproute \
-            gcc gcc-c++ automake make libtool shadow-utils \
+# 1. Use --releasever=latest to bypass repository version locks
+# 2. Add shadow-utils (provides useradd)
+# 3. Use dnf instead of yum
+RUN         dnf upgrade -y --releasever=latest \
+            && dnf install -y --releasever=latest \
+            curl \
+            ca-certificates \
+            openssl \
+            git \
+            tar \
+            sqlite \
+            fontconfig \
+            freetype \
+            libstdc++ \
+            freetype-devel \
+            lsof \
+            tzdata \
+            iproute \
+            gcc \
+            gcc-c++ \
+            automake \
+            make \
+            libtool \
+            shadow-utils \
             && dnf clean all \
             && rm -rf /var/cache/dnf \
             && useradd -m -d /home/container container
@@ -23,7 +41,4 @@ ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
 COPY        ./entrypoint.sh /entrypoint.sh
-# Ensure entrypoint is executable (optional but helpful)
-# RUN       chmod +x /entrypoint.sh
-
 CMD         [ "/bin/bash", "/entrypoint.sh" ]

@@ -1,4 +1,4 @@
-FROM        ghcr.io/graalvm/graalvm-community:17.0.9-ol7-20231024Copied
+FROM        ghcr.io/graalvm/graalvm-community:17.0.9-ol7-20231024
 
 LABEL       author="Doom2615" maintainer="doom@atbphosting.com"
 LABEL       org.opencontainers.image.source="https://github.com/Doom2615/atbp-images"

@@ -113,6 +113,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/doom2615/atbp-images:java_24`
 - [Java 25](https://github.com/trenutoo/pterodactyl-images/tree/main/java/25)
   - `ghcr.io/doom2615/atbp-images:java_25`
+- [Java 26](https://github.com/trenutoo/pterodactyl-images/tree/main/java/26)
+  - `ghcr.io/doom2615/atbp-images:java_26`
 
 ### Java GraalVM [AMD64/ARM64]
 

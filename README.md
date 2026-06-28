@@ -46,6 +46,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/doom2615/atbp-images:java_24_corretto`
 - [Java 25 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/25)
   - `ghcr.io/doom2615/atbp-images:java_25_corretto`
+- [Java 26 Amazon Corretto](https://github.com/trenutoo/pterodactyl-images/tree/main/java-corretto/26)
+  - `ghcr.io/doom2615/atbp-images:java_26_corretto`
 
 ### Java Azul Zulu [AMD64/ARM64]
 
@@ -68,12 +70,14 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/Doom2615/atbp-images:java_21_zulu`
 - [Java 22 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
   - `ghcr.io/Doom2615/atbp-images:java_22_zulu`
-- [Java 23 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+- [Java 23 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/23)
   - `ghcr.io/Doom2615/atbp-images:java_23_zulu`
-- [Java 24 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+- [Java 24 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/24)
   - `ghcr.io/Doom2615/atbp-images:java_24_zulu`
-- [Java 25 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/22)
+- [Java 25 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/25)
   - `ghcr.io/Doom2615/atbp-images:java_25_zulu`
+- [Java 26 Zulu](https://github.com/Doom2615/atbp-images/tree/main/java-zulu/26)
+  - `ghcr.io/Doom2615/atbp-images:java_26_zulu`
 
 
 ### Java Dragonwell [AMD64/ARM64]
